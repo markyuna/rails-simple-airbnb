@@ -14,6 +14,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_01_07_063007) do
   create_table "flats", force: :cascade do |t|
     t.string "name"
     t.string "address"
+    t.string "picture_url"
     t.text "description"
     t.integer "price_per_night"
     t.integer "number_of_guests"
